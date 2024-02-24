@@ -1,5 +1,5 @@
 .projects-section {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(247, 247, 247);
   padding: 50px 200px 0px 200px;
   
 }
@@ -34,6 +34,7 @@
 
 .project-link {
   font-size: 20px;
+  color: black;
 }
 
 .project-img {

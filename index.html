@@ -21,20 +21,20 @@
     <header class="header">
       <div class="self-icon">
         <img class="top-left-photo" src="photos/self-photo-left.jpg">
-        <button class="name-button">
+        <a class="name-button" href="./#home">
           Nathan Vo
-        </button>
+        </a>
       </div>
       <div class="right-section">
-        <button class="about-button">
+        <a class="home-links" href="./#about">
           About
-        </button>
+        </a>
 
-        <button class="project-button">
+        <a class="home-links" href="./#project">
           Projects
-        </button>
+        </a>
 
-        <a class="contact-button" href="./#contact-section">
+        <a class="home-links" href="./#contact">
           Contact
         </a>
       </div>
@@ -42,7 +42,7 @@
 
     <main>
 
-      <section class="home-section">
+      <section class="home-section" id="home">
         <div class="main-self-photo">
           <img class="main-self-photo" src="photos/main-photo-self.jpg">
         </div>
@@ -58,63 +58,15 @@
         </div>
 
       </section>
-      
-      <section class="projects-section">
-        <div>
-          <p class="project-intro">
-            Projects
-            <hr>
-          </p>
 
-          <!-- Project 1-->
-          <div class="projects">
-
-            <div class="project-info">
-              <p class="project-title">
-                  Tuffle
-              </p>
-              <p class="project-desc">
-                blah blah blah
-              </p>
-
-              <a class="project-link">
-                Link
-              </a>
-
-              </div>
-
-
-          <div class="project-image">
-            <img class="project-img" src="photos/project-filer.jpg">
-          </div>
-
-          </div>
-          <!-- Project 2-->
-          <div class="projects">
-
-            <div class="project-info">
-              <p class="project-title">
-                  Tuffle
-              </p>
-              <p class="project-desc">
-                blah blah blah
-              </p>
-              <a class="project-link">
-                Link
-              </a>
-
-            </div>
-
-            <div class="project-image">
-              <img class="project-img" src="photos/project-filer.jpg">
-
-            </div>
-
-        </div>
-
-      </section>
-
-      <section class="exp-skills-section">
+      <section class="exp-skills-section" id="about">
+        <h1 class="project-intro">
+          About Me
+          <hr>
+        </h1>
+        <p class="about-info">
+          Hello, my name is Nathan Vo and I am a developer and a student currently attending California State University, Fullerton studying Computer Science. At the moment, I am searching for internships to help build my resume and gain more work experience.
+        </p>
         <div class="exp-skills-grid">
           <div class="skills">
             <p class="skills-title">
@@ -144,7 +96,63 @@
         </div>
       </section>
 
-      <section class="contact-section">
+      <section class="projects-section" id="project">
+        <div>
+          <p class="project-intro">
+            Projects
+            <hr>
+          </p>
+
+          <!-- Project 1-->
+          <div class="projects">
+
+            <div class="project-info">
+              <p class="project-title">
+                  Tuffle
+              </p>
+              <p class="project-desc">
+                Tuffle is a copy of the popular website game called Wordle.
+              </p>
+
+              <a class="project-link" href="https://github.com/CSUF-CPSC121L-2022F/tuffle-backend-ntvo110">
+                Link
+              </a>
+
+              </div>
+
+
+          <div class="project-image">
+            <img class="project-img" src="photos/project-filer.jpg">
+          </div>
+
+          </div>
+          <!-- Project 2-->
+          <div class="projects">
+
+            <div class="project-info">
+              <p class="project-title">
+                Hash Table
+              </p>
+              <p class="project-desc">
+                This project uses a class that represents a hash table and how the data structure works.
+              </p>
+              <a class="project-link">
+                Link
+              </a>
+
+            </div>
+
+            <div class="project-image">
+              <img class="project-img" src="photos/project-filer.jpg">
+
+            </div>
+
+        </div>
+
+      </section>
+
+
+      <section class="contact-section" id="contact">
         <div class="contact-info">
           <h1>Contact</h1>
           <p><b>Email:</b> nathanvo233@gmail.com</p>
@@ -152,7 +160,7 @@
         </div>
         <div class="contact-container">
           <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-            <div class="contact-left-title">
+            <div class="contact-title">
               Feel free to contact me:
             </div>
             <input type="hidden" name="access_key" value="6ae5decf-3689-47d4-8d06-d8236862b5fe">

@@ -8,6 +8,7 @@
 
 .contact-info {
   padding-top: 100px;
+  color: rgb(41, 100, 138);
 }
 
 .contact-info h1 {
@@ -20,12 +21,18 @@
   font-size: 20px;
 }
 
+.contact-title {
+  color:  rgb(41, 100, 138);
+  font-size: 20px;
+}
 .contact-container {
   height: 600px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -69,5 +76,15 @@
   cursor: pointer;
   background-color: rgb(37, 39, 77);
   text-align: right;
+  transition: opacity 0.15s, 
+  opacity 0.15s;
+}
+
+.contact-form button:hover {
+  opacity: 0.75;
+}
+
+.contact-form button:active {
+  opacity: 0.5;
 }
 

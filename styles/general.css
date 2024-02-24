@@ -27,3 +27,8 @@ ul {
 li {
   padding-inline-start: 1ch;
 }
+
+hr {
+  border-top: 4px solid rgb(37, 39, 77);
+  width: 200px;
+}
