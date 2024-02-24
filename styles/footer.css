@@ -1,0 +1,42 @@
+.footer {
+  background-color: rgb(37, 39, 77);
+}
+
+.footer-grid {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 80px 200px;
+}
+
+.footer-name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer-grid p {
+  color: white;
+}
+
+.socials-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.footer-right img {
+  height: 30px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 5px;
+}

@@ -1,0 +1,21 @@
+.home-section {
+  display: grid;
+  grid-template-columns: 425px 400px;
+  justify-content: center;
+  background-color: rgb(37, 39, 77);
+  padding: 200px 0 200px 0;
+}
+.main-self-photo {
+  width: 400px;
+  border-radius: 200px;
+}
+
+.home-name {
+  color: white;
+  font-size: 60px;
+}
+
+.home-desc {
+  color: white;
+  font-size: 24px;
+}

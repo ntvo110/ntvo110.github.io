@@ -1,0 +1,22 @@
+.exp-skills-section {
+  background-color: rgb(247, 247, 247);
+  padding: 50px 0px 50px 0;
+}
+
+.exp-skills-grid {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+}
+
+.skills {
+  border-right: 3px solid rgb(41, 100, 138);
+}
+
+.skills-title,
+.experience-title {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(41, 100, 138);
+  font-weight: 700;
+}

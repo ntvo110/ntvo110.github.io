@@ -1,0 +1,43 @@
+.projects-section {
+  background-color: rgb(240, 240, 240);
+  padding: 50px 200px 0px 200px;
+  
+}
+
+.project-intro {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(41, 100, 138);
+  font-weight: 700;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  justify-content: center;
+  padding: 80px 0 25px 0;
+  border-bottom: 2px solid rgba(41, 99, 138, 0.438);
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: rgb(41, 100, 138);
+  margin-bottom: 22px;
+}
+
+.project-desc {
+  color: rgb(41, 100, 138);
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.project-link {
+  font-size: 20px;
+}
+
+.project-img {
+  width: 400px;
+  border-radius: 25px;
+  border: 12px solid rgb(41, 100, 138);
+}

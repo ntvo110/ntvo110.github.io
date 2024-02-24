@@ -1,0 +1,66 @@
+.header {
+    height: 85px;
+    background-color: rgb(37, 39, 77);
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.self-icon {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.top-left-photo {
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 15px;
+
+}
+
+.name-button {
+    color: white;
+    background-color: rgb(37, 39, 77);
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.right-section {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    margin-right: 80px;
+}
+
+.about-button {
+    color: white;
+    background-color: rgb(37, 39, 77);
+    border: none;
+    cursor: pointer;
+}
+
+
+.project-button {
+    color: white;
+    background-color: rgb(37, 39, 77);
+    border: none;
+    cursor: pointer;
+}
+
+.contact-button {
+    color: white;
+    background-color: rgb(37, 39, 77);
+    border: none;
+    cursor: pointer;
+}
